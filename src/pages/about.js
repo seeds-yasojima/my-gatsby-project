@@ -3,11 +3,18 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faUtensils, faCheckSquare } from "@fortawesome/free-solid-svg-icons"
 
-export default ({ data }) => (
+export default ({ data, location }) => (
   <Layout>
+    <SEO
+      pagetitle="ESSENTIALについて"
+      pagedesc="食べ物についての情報を発信しているサイトです。"
+      pagepath={location.pathname}
+    />
     <div className="eyecatch">
       <figure>
         <Img
