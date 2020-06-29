@@ -10,7 +10,9 @@ module.exports = {
     title: `ESSENTIAL`,
     description: `おいしい食材と食事を探求するサイト`,
     lang: `ja`,
-    siteUrl: `https://gracious-allen-4a366c.netlify.app`
+    siteUrl: `https://gracious-allen-4a366c.netlify.app`,
+    locale: `ja_JP`,
+    fbappid: `XXXXXXXXXXXXXXXX`
   },
   plugins: [
     `gatsby-transformer-sharp`,
