@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  /* メタ情報 */
   siteMetadata: {
     title: `ESSENTIAL`,
     description: `おいしい食材と食事を探求するサイト`,
@@ -14,6 +14,7 @@ module.exports = {
     locale: `ja_JP`,
     fbappid: `XXXXXXXXXXXXXXXX`
   },
+  /* プラグイン設定 */
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
