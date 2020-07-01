@@ -38,7 +38,7 @@ module.exports = {
         icon: `src/images/icon.png`
       }
     },
-    `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`, // 必ずgatsby-plugin-manifestの後に記述すること
     {
       resolve: `gatsby-source-contentful`,
       options: {
