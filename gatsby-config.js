@@ -12,7 +12,7 @@ module.exports = {
     lang: `ja`,
     siteUrl: `https://gracious-allen-4a366c.netlify.app`,
     locale: `ja_JP`,
-    fbappid: `XXXXXXXXXXXXXXXX`
+    fbappid: `XXXXXXXXXXXXXXXX`,
   },
   /* プラグイン設定 */
   plugins: [
@@ -23,7 +23,7 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      }
+      },
     },
     `gatsby-plugin-react-helmet`,
     {
@@ -35,8 +35,8 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#477294`,
         display: `standalone`,
-        icon: `src/images/icon.png`
-      }
+        icon: `src/images/icon.png`,
+      },
     },
     `gatsby-plugin-offline`, // 必ずgatsby-plugin-manifestの後に記述すること
     {
@@ -45,7 +45,7 @@ module.exports = {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
         host: process.env.CONTENTFUL_HOST,
-      }
-    }
+      },
+    },
   ],
 }
