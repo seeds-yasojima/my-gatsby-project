@@ -9,9 +9,9 @@ import { config } from "@fortawesome/fontawesome-svg-core"
 config.autoAddCss = false
 
 export default ({ children }) => (
-    <div>
-        <Header />
-        {children}
-        <Footer/>
-    </div>
+  <div>
+    <Header />
+    {children}
+    <Footer />
+  </div>
 )
