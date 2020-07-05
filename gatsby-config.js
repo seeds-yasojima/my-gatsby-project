@@ -4,6 +4,10 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+require("dotenv").config({ // .env.developファイル読み込み設定
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   /* メタ情報 */
   siteMetadata: {
