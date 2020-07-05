@@ -11,6 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { BLOCKS } from "@contentful/rich-text-types"
+import useContentfulImage from "../utils/useContentfulImage"
 
 const options = {
   renderNode: {
@@ -21,8 +22,8 @@ const options = {
       </h2>
     ),
     [BLOCKS.EMBEDDED_ASSET]: node => (
-      <img
-        src={node.data.target.fields.file["ja-JP"].url}
+      <Img
+        fluid={useContentfulImage(node.data.target.fields.file["ja-JP"].url)}
         alt={
           node.data.target.fields.description
             ? node.data.target.fields.description["ja-JP"]
@@ -30,6 +31,11 @@ const options = {
         }
       />
     ),
+  },
+  renderText: text => {
+    return text.split('\n').reduce((children, textSegment, index) => {
+      return [...children, index > 0 && <br key={index} />, textSegment];
+    }, []);
   },
 }
 
