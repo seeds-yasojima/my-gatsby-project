@@ -17,13 +17,13 @@ import SEO from "../components/seo"
 
 const options = {
   renderNode: {
-    [BLOCKS.HEADING_2]: (node, children) => (
+    [BLOCKS.HEADING_2]: (node, children) => ( // h2のアイコン追加
       <h2>
         <FontAwesomeIcon icon={faCheckSquare} />
         {children}
       </h2>
     ),
-    [BLOCKS.EMBEDDED_ASSET]: node => (
+    [BLOCKS.EMBEDDED_ASSET]: node => ( // 画像処理
       <Img
         fluid={useContentfulImage(node.data.target.fields.file["ja-JP"].url)}
         alt={
@@ -34,7 +34,7 @@ const options = {
       />
     ),
   },
-  renderText: text => {
+  renderText: text => { // 改行処理
     return text.split('\n').reduce((children, textSegment, index) => {
       return [...children, index > 0 && <br key={index} />, textSegment];
     }, []);
