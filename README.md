@@ -22,7 +22,7 @@
 public/ | 編集中
 src/ | 編集中
 static/ | 編集中
-gatsby-config.js | 編集中
+gatsby-config.js | メタデータやプラグインの設定
 gatsby-node.js | 編集中
 
 ### src配下について
@@ -37,16 +37,16 @@ src/utils | 編集中
 ## パッケージ説明
 パッケージ名   | 内容 
 ------------- | -----
-gatsby-image | 編集中
+gatsby-image | 画像最適化
+gatsby-plugin-sharp | 画像圧縮(gatsby-imageに付随)
+gatsby-transformer-sharp | 画像読み込み表示(gatsby-imageに付随)
+gatsby-source-filesystem | ローカルファイルの読み込み
 gatsby-plugin-manifest | 編集中
 gatsby-plugin-offline | 編集中
 gatsby-plugin-react-helmet | 編集中
-gatsby-plugin-sharp | 編集中
 gatsby-source-contentful | 編集中
-gatsby-source-filesystem | 編集中
-gatsby-transformer-sharp | 編集中
-react | 編集中
-react-dom | 編集中
+react | デフォルト
+react-dom | デフォルト
 react-helmet | 編集中
 @fortawesome/react-fontawesome | 編集中
 @contentful/rich-text-plain-text-renderer | 編集中
@@ -61,5 +61,6 @@ contentful
 Netlify
 
 ## 展望
-CSS設計もうちょっと理解したい。
-CSS in JS/emotion
+CSS設計もうちょっと理解したい。CSS in JS/emotion<br>
+microCMSを使いたい。<br>
+アニメーションほしい
