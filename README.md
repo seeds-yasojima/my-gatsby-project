@@ -8,8 +8,11 @@
 - [展望](https://github.com/seeds-yasojima/my-gatsby-project#%E5%B1%95%E6%9C%9B)
 
 ## 概要
-[Webサイト高速化のための 静的サイトジェネレーター活用入門](https://github.com/ebisucom/gatsbyjs-book) を実践した記録
+[Webサイト高速化のための 静的サイトジェネレーター活用入門](https://github.com/ebisucom/gatsbyjs-book) を実践した記録<br>
+デプロイは、Netlifyとgithubを繋ぎmaster pushで反映<br>
+CMSは、[Contentful](https://www.contentful.com/) を使用
 
+デモサイト：[https://gracious-allen-4a366c.netlify.app/](https://gracious-allen-4a366c.netlify.app/)<br>
 
 ## 構築
 1. `yarn install` : パッケージインストール
