@@ -3,8 +3,8 @@
 - [構築](https://github.com/seeds-yasojima/my-gatsby-project#%E6%A7%8B%E7%AF%89)
 - [ディレクトリ構成](https://github.com/seeds-yasojima/my-gatsby-project#%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E6%A7%8B%E6%88%90)
 - [パッケージ説明](https://github.com/seeds-yasojima/my-gatsby-project#%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E8%AA%AC%E6%98%8E)
-- [使用CMS](https://github.com/seeds-yasojima/my-gatsby-project#%E4%BD%BF%E7%94%A8cms)
-- [デプロイ](https://github.com/seeds-yasojima/my-gatsby-project#%E4%BD%BF%E7%94%A8cms)
+- [使用CMS](https://github.com/seeds-yasojima/my-gatsby-project#%E4%BD%BF%E7%94%A8cms%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+- [デプロイ](https://github.com/seeds-yasojima/my-gatsby-project#%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4)
 
 ## 概要
 [Webサイト高速化のための 静的サイトジェネレーター活用入門](https://github.com/ebisucom/gatsbyjs-book) を実践した記録
