@@ -35,7 +35,6 @@ src/templates | 編集中
 src/utils | 編集中
 
 ## パッケージ説明
-### gatsby
 パッケージ名   | 内容 
 ------------- | -----
 gatsby-image | 編集中
@@ -62,5 +61,5 @@ contentful
 Netlify
 
 ## 展望
-CSSの管理法などもうちょっと理解したい。
+CSS設計もうちょっと理解したい。
 CSS in JS/emotion
