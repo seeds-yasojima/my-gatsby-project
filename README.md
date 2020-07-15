@@ -1,4 +1,4 @@
-## 目次
+## ■ 目次
 - [概要](https://github.com/seeds-yasojima/my-gatsby-project#%E6%A6%82%E8%A6%81)
 - [構築](https://github.com/seeds-yasojima/my-gatsby-project#%E6%A7%8B%E7%AF%89)
 - [ディレクトリ構成](https://github.com/seeds-yasojima/my-gatsby-project#%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E6%A7%8B%E6%88%90)
@@ -7,18 +7,18 @@
 - [デプロイ](https://github.com/seeds-yasojima/my-gatsby-project#%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4)
 - [展望](https://github.com/seeds-yasojima/my-gatsby-project#%E5%B1%95%E6%9C%9B)
 
-## 概要
+## ■ 概要
 [Webサイト高速化のための 静的サイトジェネレーター活用入門](https://github.com/ebisucom/gatsbyjs-book) を実践した記録<br>
 デプロイは、Netlifyとgithubを繋ぎmaster pushで反映<br>
 CMSは、[Contentful](https://www.contentful.com/) を使用
 
 デモサイト：[https://gracious-allen-4a366c.netlify.app/](https://gracious-allen-4a366c.netlify.app/)<br>
 
-## 構築
+## ■ 構築
 1. `yarn install` : パッケージインストール
 2. `yarn develop` : local環境 起動
 
-## ディレクトリ構成
+## ■ ディレクトリ構成
 ### ルート配下について
 フォルダ      | 内容 
 ------------- | -----
@@ -37,7 +37,7 @@ src/pages | 編集中
 src/templates | 編集中
 src/utils | 編集中
 
-## パッケージ説明
+## ■ パッケージ説明
 パッケージ名   | 内容 
 ------------- | -----
 gatsby-image | 画像最適化
@@ -57,13 +57,13 @@ react-helmet | 編集中
 @contentful/rich-text-types | 編集中
 
 
-## 使用CMSについて
+## ■ 使用CMSについて
 contentful
 
-## デプロイ
+## ■ デプロイ
 Netlify
 
-## 展望
+## ■ 展望
 CSS設計もうちょっと理解したい。CSS in JS/emotion<br>
 microCMSを使いたい。<br>
 アニメーションほしい
