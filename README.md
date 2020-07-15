@@ -4,6 +4,7 @@
 - [ディレクトリ構成](https://github.com/seeds-yasojima/my-gatsby-project#%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E6%A7%8B%E6%88%90)
 - [パッケージ説明](https://github.com/seeds-yasojima/my-gatsby-project#%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E8%AA%AC%E6%98%8E)
 - [使用CMS](https://github.com/seeds-yasojima/my-gatsby-project#%E4%BD%BF%E7%94%A8cms)
+- [デプロイ](https://github.com/seeds-yasojima/my-gatsby-project#%E4%BD%BF%E7%94%A8cms)
 
 ## 概要
 [Webサイト高速化のための 静的サイトジェネレーター活用入門](https://github.com/ebisucom/gatsbyjs-book) を実践した記録
@@ -33,7 +34,28 @@ src/templates | 編集中
 src/utils | 編集中
 
 ## パッケージ説明
-編集中
+### gatsby
+パッケージ名   | 内容 
+------------- | -----
+gatsby-image | 編集中
+gatsby-plugin-manifest | 編集中
+gatsby-plugin-offline | 編集中
+gatsby-plugin-react-helmet | 編集中
+gatsby-plugin-sharp | 編集中
+gatsby-source-contentful | 編集中
+gatsby-source-filesystem | 編集中
+gatsby-transformer-sharp | 編集中
+react | 編集中
+react-dom | 編集中
+react-helmet | 編集中
+@fortawesome/react-fontawesome | 編集中
+@contentful/rich-text-plain-text-renderer | 編集中
+@contentful/rich-text-react-renderer | 編集中
+@contentful/rich-text-types | 編集中
 
-## 使用CMS
-編集中
+
+## 使用CMSについて
+contentful
+
+## デプロイ
+Netlify
