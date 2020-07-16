@@ -12,7 +12,12 @@
 デプロイは、Netlifyとgithubを繋ぎmaster pushで反映<br>
 CMSは、[Contentful](https://www.contentful.com/) を使用
 
-デモサイト：[https://gracious-allen-4a366c.netlify.app/](https://gracious-allen-4a366c.netlify.app/)<br>
+### デモサイト
+[https://gracious-allen-4a366c.netlify.app/](https://gracious-allen-4a366c.netlify.app/)<br>
+
+### gatsbyについて
+これに大体書いてる<br>
+[Reactの最強フレームワークGatsby.jsの良さを伝えたい！！](https://qiita.com/hppRC/items/00739eaf9ae7fc95c1ca)
 
 ## ■ 構築
 1. `yarn install` : パッケージインストール
