@@ -61,7 +61,8 @@ react-helmet | 編集中
 [Contentful](https://www.contentful.com/)
 - 今回のチュートリアルで使用した。
 - ヘッドレスCMSでは人気
-- 国産ヘッドレスCMSのmicroCMS使用してみたい。
+- 国産ヘッドレスCMSの [microCMS](https://microcms.io/) で実装してみたい。
+- CMSの使いごごちとしてはやっぱり国産のCMSの方がいいと思う。
 
 ## ■ デプロイ
 [Netlify](https://www.netlify.com/)
@@ -69,6 +70,7 @@ react-helmet | 編集中
 - Amplify Consoleでデプロイしたい。Basic認証簡単にできる為。
 
 ## ■ 展望
-CSS設計もうちょっと理解したい。CSS in JS/emotion<br>
-microCMSを使いたい。<br>
-アニメーションほしい
+- CSS設計もうちょっと理解したい。CSS in JS/emotion
+- microCMSを使いたい。
+- アニメーションほしい
+- reactをもっと理解したら制作の幅も広がる。
