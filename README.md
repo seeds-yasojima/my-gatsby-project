@@ -16,7 +16,9 @@ CMSは、[Contentful](https://www.contentful.com/) を使用
 [https://gracious-allen-4a366c.netlify.app/](https://gracious-allen-4a366c.netlify.app/)<br>
 
 ### gatsbyについて
-これに大体書いてる<br>
+Reactで作られた静的サイトジェネレーター<br>
+
+これ↓に大体書いてる<br>
 [Reactの最強フレームワークGatsby.jsの良さを伝えたい！！](https://qiita.com/hppRC/items/00739eaf9ae7fc95c1ca)
 
 ## ■ 構築
