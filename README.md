@@ -72,10 +72,14 @@ gatsby-plugin-react-helmet | メタデータ対応 react-helmetも必須
 react | react 本体
 react-dom | react-dom
 react-helmet | react メタデータ対応
-gatsby-source-contentful | Contentful(CMS):CMSデータを扱う為に必要
-@contentful/rich-text-react-renderer | Contentful(CMS):リッチテキストのJSONデータをReactコンポーネントで扱えるように変換<br>(`blogpost-template.js` で使用)
-@contentful/rich-text-types | Contentful(CMS):リッチテキスト内の要素をカスタマイズする為に必要<br>(`blogpost-template.js` で使用)
-@contentful/rich-text-plain-text-renderer | Contentful(CMS):リッチテキストをテキストに変換する為に必要<br>(`blogpost-template.js` で使用)
+
+### Contentful(CMS)関連
+パッケージ名   | 内容 
+------------- | -----
+gatsby-source-contentful | CMSデータを扱う為に必要
+@contentful/rich-text-react-renderer | リッチテキストのJSONデータをReactコンポーネントで扱えるように変換
+@contentful/rich-text-types | リッチテキスト内の要素をカスタマイズする為に必要
+@contentful/rich-text-plain-text-renderer | リッチテキストをテキストに変換する為に必要
 
 
 ## ■ 使用CMSについて
