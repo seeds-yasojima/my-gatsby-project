@@ -70,7 +70,7 @@ react-helmet | 編集中
 - Amplify Consoleでデプロイしたい。Basic認証簡単にできる為。
 
 ## ■ 展望
-- CSS設計もうちょっと理解したい。CSS in JS/emotion
+- CSS設計もうちょっと理解したい。CSS in JS [emotion](https://github.com/emotion-js/emotion)
 - microCMSを使いたい。
-- アニメーションほしい
+- アニメーションの使い方理解したい
 - reactをもっと理解したら制作の幅も広がる。
