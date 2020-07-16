@@ -16,7 +16,7 @@ CMSは、[Contentful](https://www.contentful.com/) を使用
 
 ## ■ 構築
 1. `yarn install` : パッケージインストール
-2. `yarn develop` : local環境 起動
+2. `yarn develop` : local環境 起動 -> `.env.develop` ないとエラー出るかも…
 
 ## ■ ディレクトリ構成
 ### ルート配下について
@@ -51,17 +51,22 @@ gatsby-source-contentful | 編集中
 react | デフォルト
 react-dom | デフォルト
 react-helmet | 編集中
-@fortawesome/react-fontawesome | 編集中
+@fortawesome/react-fontawesome | fontawesome
 @contentful/rich-text-plain-text-renderer | 編集中
 @contentful/rich-text-react-renderer | 編集中
 @contentful/rich-text-types | 編集中
 
 
 ## ■ 使用CMSについて
-contentful
+[Contentful](https://www.contentful.com/)
+- 今回のチュートリアルで使用した。
+- ヘッドレスCMSでは人気
+- 国産ヘッドレスCMSのmicroCMS使用してみたい。
 
 ## ■ デプロイ
-Netlify
+[Netlify](https://www.netlify.com/)
+- 今回のチュートリアルで使用した。
+- Amplify Consoleでデプロイしたい。Basic認証簡単にできる為。
 
 ## ■ 展望
 CSS設計もうちょっと理解したい。CSS in JS/emotion<br>
