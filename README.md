@@ -41,21 +41,21 @@ gatsby-node.js | ページ生成の為の設定=> `src/templates` 配下と紐�
 ### src配下について
 フォルダ      | 内容 
 ------------- | -----
-src/components | コンポーネントディレクトリ
+**src/components** | **コンポーネントディレクトリ**
 src/components/header.js | ヘッダー
 src/components/footer.js | フッター
 src/components/layout.js | レイアウト
 src/components/seo.js | SEO
 src/components/layout.css | layout.jsに読ませるcss(globalcss)<br>->これやめたい
-src/pages | 各ページディレクトリ
+**src/pages** | **各ページディレクトリ**
 src/pages/index.js | トップページ
 src/pages/about.js | aboutページ
 src/pages/404.js | 404ページ
-src/templates | ページ生成ディレクトリ<br>設定は `gatsby-node.js` で行う
+**src/templates** | **ページ生成ディレクトリ<br>設定は `gatsby-node.js` で行う**
 src/templates/blog-template.js | ブログ一覧ページ
 src/templates/blogpost-template.js | ブログ投稿ページ
 src/templates/cat-template.js | カテゴリー絞り込みページ
-src/utils | 汎用ディレクトリ<br>(汎用的に使う関数？モジュール？を格納するところ)
+**src/utils** | **汎用ディレクトリ<br>(汎用的に使う関数？モジュール？を格納するところ)**
 src/utils/useContentfulImage.js | ブログ投稿内容の画像読み込み設定
 
 ## ■ パッケージ説明
@@ -69,13 +69,11 @@ gatsby-plugin-manifest | PWA マニフェストを追加
 gatsby-plugin-offline | PWA オフライン対応
 gatsby-plugin-react-helmet | メタデータ対応 react-helmetも必須
 @fortawesome/react-fontawesome | fontawesome対応
+**react関連** | -
 react | react 本体
 react-dom | react-dom
 react-helmet | react メタデータ対応
-
-### Contentful(CMS)関連
-パッケージ名   | 内容 
-------------- | -----
+**Contentful(CMS)関連** | -
 gatsby-source-contentful | CMSデータを扱う為に必要
 @contentful/rich-text-react-renderer | リッチテキストのJSONデータをReactコンポーネントで扱えるように変換
 @contentful/rich-text-types | リッチテキスト内の要素をカスタマイズする為に必要
